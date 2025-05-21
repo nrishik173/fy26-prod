@@ -1,0 +1,14 @@
+{
+  "name": "fy26-prod",
+  "version": "1.0.0",
+  "description": "A sample project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Rishi",
+  "license": "MIT"
+}
