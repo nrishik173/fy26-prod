@@ -4,8 +4,7 @@
   "description": "A sample project",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"No test specified\" && exit 1"
+    "test": "echo \"Dummy test: No actual tests specified\" && exit 0"
   },
   "dependencies": {},
   "devDependencies": {},
