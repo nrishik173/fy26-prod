@@ -1,0 +1,21 @@
+employees:
+  - id: 1001
+    name: "John Doe"
+    department: "Engineering"
+    position: "Software Developer"
+    salary: 75000
+    active: true
+
+  - id: 1002
+    name: "Jane Smith"
+    department: "Marketing"
+    position: "Social Media Manager"
+    salary: 60000
+    active: true
+
+  - id: 1003
+    name: "Bob Williams"
+    department: "Finance"
+    position: "Accountant"
+    salary: 55000
+    active: false
