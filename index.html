@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - FY26 Prod</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            <div id="errorMessage" class="error-message" style="display: none;"></div>
+        </div>
+
+        <!-- Credential Save Prompt Modal -->
+        <div id="credentialPrompt" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h3>Save Credentials</h3>
+                <p>Would you like to save your credentials for faster login next time?</p>
+                <div class="modal-buttons">
+                    <button id="saveCredentials" class="btn btn-primary">Save</button>
+                    <button id="notNow" class="btn btn-secondary">Not now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Success Page (shown after login) -->
+        <div id="successPage" class="success-page" style="display: none;">
+            <h2>Welcome!</h2>
+            <p>You have successfully logged in.</p>
+            <button id="logoutBtn" class="btn btn-secondary">Logout</button>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

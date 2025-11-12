@@ -4,7 +4,8 @@
   "description": "A sample project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Dummy test: No actual tests specified\" && exit 0"
+    "test": "echo \"Dummy test: No actual tests specified\" && exit 0",
+    "start": "python -m http.server 8000 || python3 -m http.server 8000 || npx http-server -p 8000"
   },
   "dependencies": {},
   "devDependencies": {},
